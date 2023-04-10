@@ -7,7 +7,16 @@
     box-sizing: border-box;
 }
 
-:root {
+body{
+    background-image: url(../img/estrela.png), linear-gradient(to bottom ,var(--preto), var(--violeta), var(--claro));
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    margin: auto;
+    background-attachment:fixed;
+}
+
+:root{
     --preto: #0F0042 ;
     --branco: #DEF7FF ;
     --vermelho: #A61661;
@@ -15,22 +24,12 @@
     --violeta: #381087;
 }
 
-body{
-    background-image: url(../img/estrela.png), linear-gradient(to bottom ,var(--preto), var(--violeta), var(--claro));
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 350px;
-    align-items: center;
-    margin: auto;
-    background-attachment:fixed;
-    background-color: rgba(0, 0, 0, 0.681);
-}
 .texto{
     text-align: center;
     color: var(--branco);
     margin-bottom: 20px;
     font-family: "Rubik","sans-serif";
-    text-shadow:  2px, 2px, 0px,#0f004264;
+    text-shadow:  2px, 2px, 0px, var(--branco);
 }
 
 /* botao */
@@ -39,21 +38,17 @@ body{
     text-decoration: none;
     background-color: var(--vermelho);
     color: var(--branco);
-    margin: 13px;
-    padding: 5px;
+    margin: 6px;
+    padding: 3px;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 10px;
 }
-img{
+.letra{
+    text-decoration: none;
+    color: var(--branco);
     align-items: center;
-    margin-top: 140px;
-    margin-bottom: 50px;
-    background-color: 2px var(--claro);
-}
-.star{
-    width: 350px;
     display: flex;
-    border: 2px 0px 0px var(--branco);
+    justify-content: center;
 }
