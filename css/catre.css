@@ -1,54 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(../img/estrela.png), linear-gradient(to bottom ,var(--preto), var(--violeta), var(--claro));
+body {
+    background-image: url(../img/estrela.png), linear-gradient(to bottom, var(--preto), var(--violeta), var(--claro));
     width: 400px;
     height: 350px;
     align-items: center;
     margin: auto;
-    background-attachment:fixed;
+    background-attachment: fixed;
+    margin-top: 200px;
 }
 
-:root{
-    --preto: #0F0042 ;
-    --branco: #DEF7FF ;
+:root {
+    --preto: #0F0042;
+    --branco: #DEF7FF;
     --vermelho: #A61661;
     --claro: #f882bf;
     --violeta: #381087;
 }
 
-.texto{
-    text-align: center;
-    color: var(--branco);
-    margin-bottom: 20px;
-    font-family: "Rubik","sans-serif";
-    text-shadow:  2px, 2px, 0px, var(--branco);
-}
-
 /* botao */
 
-.botao{
+.texto {
+    text-align: center;
+    color: var(--branco);
+    margin-bottom: 10px;
+    font-family: "Rubik", "sans-serif";
+    text-shadow: 2px, 2px, 0px, var(--branco);
+    font-size: 15px;
+    
+}
+
+.botao {
     text-decoration: none;
     background-color: var(--vermelho);
     color: var(--branco);
-    margin: 6px;
-    padding: 3px;
+    margin: 13px;
+    padding: 5px;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    width: 145px;
+    height: 35px;
+    font-family: "Rubik", "sans-serif";
 }
-.letra{
+
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letra {
     text-decoration: none;
     color: var(--branco);
+    border: 1px #38108755;
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: "Rubik", "sans-serif";
+    text-shadow: 2px, 2px, 0px, var(--branco);
+}
+
+.letra-a {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: "Rubik", "sans-serif";
+}
+.letra-a > a{
+    text-decoration-color: var(--claro);
+    color: var(--branco);
+    border: 1px 0px 0px #38108755;
+    align-items: center;
+    display: flex;
+    
+    text-shadow: 2px, 2px, 0px, var(--branco);
+}
+.img {
+    align-items: center;
+    margin-top: 40px;
+    width: 200px;
+    background-color: 2px var(--claro);
+}
+
+.place {
+    border: solid transparent;
+    border-radius: 10px;
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: var(--branco);
+    padding: 3px;
+}
+
+.tabela {
+    background-color: #1303445e;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
 }

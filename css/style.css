@@ -13,6 +13,7 @@
     --vermelho: #A61661;
     --claro: #f882bf;
     --violeta: #381087;
+    --cinza: #4F5671;
 }
 
 body{
@@ -24,6 +25,7 @@ body{
     margin: auto;
     background-attachment:fixed;
     background-color: rgba(0, 0, 0, 0.681);
+    place-items: center;
 }
 .texto{
     text-align: center;
@@ -40,11 +42,14 @@ body{
     background-color: var(--vermelho);
     color: var(--branco);
     margin: 13px;
-    padding: 5px;
+    padding: px;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    width: 400px;
+    height: 60px;
+     font-family: "Rubik","sans-serif";
 }
 img{
     align-items: center;
@@ -56,4 +61,26 @@ img{
     width: 350px;
     display: flex;
     border: 2px 0px 0px var(--branco);
+}
+
+.bot {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+}
+.a{
+    background-color: #1303445e;
+    width: 500px;
+    height: 500px;
+    padding:10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    backdrop-filter: blur(2px);
 }
