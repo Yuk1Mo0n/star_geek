@@ -18,11 +18,13 @@ body {
 }
 
 :root {
-    --preto: #0F0042;
-    --branco: #DEF7FF;
+    --escuro: #0F0042 ;
+    --preto: #050f38;
+    --branco: #DEF7FF ;
     --vermelho: #A61661;
     --claro: #f882bf;
     --violeta: #381087;
+    --cinza: #4F5671;
 }
 
 /* botao */
@@ -68,7 +70,11 @@ body {
     font-family: "Rubik", "sans-serif";
     text-shadow: 2px, 2px, 0px, var(--branco);
 }
-
+a {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 600;
+}
 .letra-a {
     text-decoration: none;
     color: var(--branco);
@@ -80,7 +86,6 @@ body {
     border: 1px 0px 0px #38108755;
     align-items: center;
     display: flex;
-    
     text-shadow: 2px, 2px, 0px, var(--branco);
 }
 .img {
@@ -94,17 +99,17 @@ body {
     border: solid transparent;
     border-radius: 10px;
     max-width: 250px;
-    padding: 1rem;
     position: relative;
     background: var(--branco);
-    padding: 3px;
+    padding: 5px;
+    margin: 12px;
 }
 
 .tabela {
     background-color: #1303445e;
     width: 500px;
     height: 500px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     text-align: start;
     justify-content: center;
@@ -114,3 +119,6 @@ body {
     flex-direction: column;
     backdrop-filter: blur(2px);
 }
+li{
+    list-style-type: none;
+} 

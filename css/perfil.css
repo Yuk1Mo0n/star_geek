@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --escuro: #0F0042 ;
+    --preto: #050f38;
+    --branco: #DEF7FF ;
+    --vermelho: #A61661;
+    --claro: #f882bf;
+    --violeta: #381087;
+    --cinza: #4F5671;
+}
