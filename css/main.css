@@ -13,12 +13,13 @@
     --vermelho: #A61661;
     --claro: #f882bf;
     --violeta: #381087;
+    --violeta2: #6334c1;
     --cinza: #4d546e;
 }
 body{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    background-color: var(--cinza);
+    background-color: var(--violeta2);
     
 }
 .cabecalho{
@@ -85,10 +86,14 @@ a {
 .ta{
     text-align: center;
     color: var(--branco);
+    background-color: var(--cinza);
+    padding-top:2px;
 }
 
 .item{
     padding-right: 10px;
+    border-radius: 2px;
+    
 }
 
 .tela .item img {
@@ -103,9 +108,11 @@ a {
     display: flex;
     margin-top: 15px;
     padding-left: 7px;
+    
 }
 .tela-a .item img {
     width: 180px;
+    
 }
 .tela-a{
     overflow: scroll;
